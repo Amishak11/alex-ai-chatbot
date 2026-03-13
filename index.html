@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Assistant</title>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>A.L.E.X.</h1>
+            <p id="status-text">YOUR PERSONAL ASSISTANT</p>
+            <button id="themeToggle" title="Toggle Theme">🌙</button>
+        </div>
+
+        <div class="chat-window" id="chat-window"></div>
+
+        <div class="input-area">
+            <input type="text" id="userInput" placeholder="Enter command..." autocomplete="off">
+            <button id="micButton" title="Voice Command">🎤</button>
+        </div>
+    </div>
+
+    <!-- eel bridge -->
+    <script type="text/javascript" src="/eel.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
